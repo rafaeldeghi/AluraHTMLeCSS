@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: 'Roboto', sans-serif;
+  vertical-align: baseline;
+}
+
+header {
+  background: #BBBBBB;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+.disp li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #C78C19;
+}
+
+#imagem {
+  width: 100%;
+}
+
+.princ {
+  background: #cccccc;
+  padding: 30px;
+}
+
+.titulo-princ {
+  padding-left: 20px;
+}
+
+.titulo-cent {
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+#missao{
+  font-size: 20px;
+}
+
+em strong {
+  color: red;
+}
+
+.itens {
+  font-style: italic;
+}
+
+.benef {
+  background: #FFF;
+  padding: 20px;
+}
+
+.listaz {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imgbenefi {
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  background: url("bg.jpg");
+  padding: 40px 0;  
+}
+
+.copyr {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-top: 20px;
+}
